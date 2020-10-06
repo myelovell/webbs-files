@@ -1,0 +1,13 @@
+1. I test.slim: Skapa h1 och p med text. Generera html-document genom att
+    - kör 'ruby slim-test.rb' i terminalen (är du i rätt mapp?)
+    - Skriv open index.html för att visa resultatet i Chrome
+
+2. I test.slim: Skapa en h1 med texten "Här kommer ett betonat ord". Ordet 'betonat' ska vara i en em-tagg. 
+
+3. Skapa en variabel lokalt i test.slim. Skapa en lista (ul) med 10 programmatiskt skapade list-items somma alla innehåller ordet i variabeln.
+
+4. I hashen (dictionaryn) 'varaibles' i slim-test.rb: Skapa ett nytt key-value-par som du sedan skriver ut i en h1-tagg
+
+5. Utmaning: I hashen (dictionaryn) 'varaibles' i slim-test.rb: Skapa en lista med minst tre hashes som var och en beskriver name,city,iq. Använd each-loop för att skriva ut informationen i en tabell
+
+6. Utmaning: Skapa contact cards.

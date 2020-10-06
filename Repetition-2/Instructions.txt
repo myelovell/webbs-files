@@ -1,0 +1,19 @@
+#max_of_two:
+Skriv en funktion med två integer inputs som returnerar det största av dem två.
+
+#delete_char:
+Skriv en funktion som tar två inputs, en sträng (tex ett ord) och ett tecken (char, tex en bokstav), och returnerar en ny kopia av första strängen med tecknet borttaget. [Tips 1: En sträng är en array][Tips 2: Använd while-loop]
+
+#distribution_calc: Länk till fil: tinyurl.com/yd4z3odw
+Skriv ett skript som givet en fil som input (t.ex foods.txt) beräknar andelen av alla kategorier.
+Filen är strukturerad med ett föremål på varje rad där varje rad slutar på #Kategori
+::Exempel output::
+Total: 250
+Fruits: 36.0%
+Beverages: 10.0%
+Vegetables: 54.0%
+
+###Bonusbanor, endast om du har tid över!###
+
+#replace_substring (utan gsub-metoden eller include):
+Skriv en funktion med tre inputs (strängar) och returnerar en ny kopia av den första strängen fast med den andra strängen utbytt mot den tredje. Ex. myFunc(“Hej Kalle!”,”Kalle”,”Pavarotti”) => Hej Pavarotti!

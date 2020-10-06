@@ -1,0 +1,80 @@
+h1 Hello
+
+p world
+
+
+.red
+    | Hello World Hello World pipe 
+
+h1
+    | Här kommer ett
+    em betonat
+    | ord:
+
+- variable = "Words"
+
+ul
+    - 10.times do
+        li = variable
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/ h1
+/     | Detta är en
+/     em rubrik
+/     |  som ser ut så här
+
+/ - min_var = "Denna sträng är sparad i variabeln 'namn'"
+/ - mitt_num = 1
+
+/ ul
+/ - 4.times do
+/     li #{min_var + " ojoj " + mitt_num.to_s}
+/     - mitt_num += 1
+
+/ table class="tabell-klass" style="border: 1px solid black"
+/     tr
+/         td style="border: 1px solid black" En första td
+/         td style="border: 1px solid black" En andra td
+
+/ - var.each do |e|
+/     p = e
+
+/ nav.klass
+
+/ - unless teachers.empty?
+/     table
+/         - teachers.each do |teacher|
+/             tr
+/                 td = teacher[:name]
+/                 td = teacher[:age]

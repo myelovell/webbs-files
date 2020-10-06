@@ -1,0 +1,7 @@
+Skapa en ”lorem ipsum”-fylld sida med rubriker,
+-underrubriker
+-paragrafer med en innehållsförteckning som navigation.
+-Bilder och länkar ska finnas. Ha gärna ett tema på
+Bonusbana 1: Använd flex eller grid för att skapa en simpel layout.
+Bonusbana 2: Försök lägga till ett formulär med <form> -taggen.
+   
