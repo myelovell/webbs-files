@@ -2,24 +2,29 @@ require_relative './lib/slim-template.rb'
 
 # 1: Hämta alla data ifrån 'data/user_data.csv'
 lines = File.readlines('data/user_data.csv')
-
+# p lines
 # 2: Gör om datastrukturen till en ny dubbelarray
-# double_array = ... 
-
-
-
+double_array = lines.map do |user|
+    user.split(",")
+    user.chomp #removes newline
+end
 # 3: Skapa ännu en ny array som innehåller 1 dictionary/anställd
 # array_with_hashes = ...
-
-
-
+double_array.each do |element|
+    data_hash = {
+        id_num: element[0],
+        name: element[1],
+        email: element[2],
+        user_data: element[3],
+        department: element[4]
+    }
+end
 
 
 # 4: I denna hash lägger du arrayen du skapade i #3
  data_hash = {
-
+    emlpoyer: double_array
  }
- 
 # 5: Skapa SLIM-kod i slim-filerna
 
 # 6: Här skapas html mha slim. Dictionaryn 'data_hash' skickas med

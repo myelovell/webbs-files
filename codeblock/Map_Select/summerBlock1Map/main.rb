@@ -1,4 +1,4 @@
-#Uppgift 1:
+#Uppgift 1:  
 #Skriv ett script som läser in names.txt och sparar ner en ny fil fast med efternamnet först, sen förnamnet.Använd map.
 
 def switch2
