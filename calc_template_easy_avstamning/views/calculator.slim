@@ -1,0 +1,22 @@
+.wrapper
+
+  .calculator
+    h2 Kalkulatorn (form)
+    form action="/calculate" method="post"
+      input type="number" name="num1"/
+      select name="operator"
+        option value="+" selected="selected" +
+        option value="-" -
+        option value="*" *
+        option value="/"="/"
+      input type="number" name="num2"/
+      input type="submit" value="Räkna!"
+
+  .history
+    h2 History
+    - if session[:history] != nil    #- streck innan definerar ruby code
+        - session[:history].each do |item|
+            p = item
+
+    form action="Clear" method="post"
+        input type="submit" value="Clear!"
