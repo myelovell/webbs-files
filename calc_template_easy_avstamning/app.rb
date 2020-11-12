@@ -42,7 +42,7 @@ session[:history] = output #session med keyn history och valuen output
     redirect to('/')
 end
 
-get('/error') do
+post('/error') do
     slim(:error)
 end
 
