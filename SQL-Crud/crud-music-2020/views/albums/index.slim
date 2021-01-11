@@ -1,0 +1,13 @@
+h1 All Albums
+
+
+ol
+  - albums.each do |album|
+    li 
+      a href="albums/#{album['AlbumId']}" #{album["Title"]}
+      a href="albums/#{album['AlbumId']}/edit" Update
+      a href="delete/#{album['AlbumId']}" Delete
+      
+      
+      
+            
