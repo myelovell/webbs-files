@@ -1,0 +1,11 @@
+h2 Your todos:
+
+form method="get" action="/todos/new"
+    input type="submit" value="Create new todo"
+
+- todos.each do |todo|
+    p = todo["content"]
+    form method="get" action="todos/#{todo['content_id']}/edit"
+        input type="submit" value="Edit"
+    form method="post" action="todos/#{todo['content_id']}/delete"
+        input type="submit" value="Delete"
